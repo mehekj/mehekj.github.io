@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project: ML Flappy Bird</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mehek Jethani developer and university student porfolio" />
+    <meta name="keywords" content="web developer, intern, computer graphics, design" />
+    <meta name="author" content="Mehek Jethani" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="../../favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="../css/flexslider.css">
+    <!-- Flaticons  -->
+    <!-- <link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css"> -->
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Modernizr JS -->
+    <script src="../js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="../js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+    <div id="colorlib-page">
+        <div class="container-wrap">
+            <a href="../#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar"><i></i></a>
+            <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+                <div class="text-center">
+                    <div class="author-img" style="background-image: url(../images/about.jpg);"></div>
+                    <h1 id="colorlib-logo"><a href="../index.html">Mehek Jethani</a></h1>
+                    <span class="position"><a style="cursor: text;">Research Assistant</a> at Brown University</span>
+                </div>
+                <nav id="colorlib-main-menu" role="navigation" class="navbar">
+                    <div id="navbar-project" class="collapse">
+                        <ul>
+                            <li><a href="../index.html#home" data-nav-section="home">Home</a></li>
+                            <li><a href="../index.html#about" data-nav-section="about">About</a></li>
+                            <li><a href="../index.html#skills" data-nav-section="skills">Skills</a></li>
+                            <li><a href="../index.html#education" data-nav-section="education">Education</a></li>
+                            <li><a href="../index.html#experience" data-nav-section="experience">Experience</a></li>
+                            <li class="active"><a href="../index.html#work" data-nav-section="work">Work</a></li>
+                            <li><a href="../index.html#contact" data-nav-section="contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="colorlib-footer">
+                    <ul>
+                        <li><a href="https://github.com/mehekj" target="_blank"><i class="icon-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/mehek-jethani/" target="_blank"><i
+                                    class="icon-linkedin2"></i></a></li>
+                    </ul>
+                </div>
+
+            </aside>
+
+            <div id="colorlib-main">
+                <section class="colorlib-about">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="col-md-12">
+                                        <div class="about-desc">
+                                            <h2 class="colorlib-heading project-title">Machine Learning Flappy Bird Game</h2>
+                                            <span class="heading-meta project-date">April 2021</span>
+
+                                            <img class="project-media" src="../images/projects/flappybird/thumbnail.png" alt="">
+
+                                            <p>
+                                                This is an individual project I created for my Intro to Object Oriented Programming final during the 2021 spring semester. It was programmed entirely in Java and JavaFX.
+                                            </p>
+
+                                            <p>
+                                                The application has two main modes (manual and smart) which a user is prompted to select upon startup. Manual functions like the standard Flappy Bird game where you control a single bird that can jump using the space bar, and must try to avoid the constantly scrolling generated pipes, with the distance you travel being your score. 
+                                            </p>
+
+                                            <p>
+                                                Smart mode uses a neural network to train a population of birds that play the game simultaneously using data about the pipe and bird positions and velocities. The first generation of birds is generated with random weights. Rather than providing the algorithm with training data, I instead used a simplified "evolution" algorithm which takes the best performing birds of each generation and passes the weights of those birds on to the next generation with some randomized "mutations" that involve slightly modifying some of the weights.
+                                            </p>
+
+                                            <p>
+                                                To view the source code and try it yourself visit my <a href="https://github.com/mehekj/flappybird" target="_blank">GitHub.</a> <br />
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="copyright">
+                    <p><small>&copy;
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved. Template by
+                            <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </span> <span>Distributed by <a href="https://themewagon.com"
+                                    target="_blank">ThemeWagon</a></span>
+                        </small></p>
+                </div>
+
+            </div><!-- end:colorlib-main -->
+        </div><!-- end:container-wrap -->
+    </div><!-- end:colorlib-page -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="../js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="../js/jquery.flexslider-min.js"></script>
+    <!-- Owl carousel -->
+    <script src="../js/owl.carousel.min.js"></script>
+    <!-- Counters -->
+    <script src="../js/jquery.countTo.js"></script>
+
+
+    <!-- MAIN JS -->
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>

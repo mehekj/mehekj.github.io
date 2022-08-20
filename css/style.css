@@ -1890,7 +1890,8 @@ body.offcanvas .colorlib-nav-toggle {
   margin-bottom: 40px;
 }
 
-.video-wrapper iframe {
+.video-wrapper iframe,
+.video-wrapper video {
   position: absolute;
   width: 100%;
   top: 0;
